@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  font-family: "Times New Roman", Georgia, Serif;
+
+}
+
+.navbox {
+  background-color: #21505C;
+  height: 20%;
+  color: white;  
+}
+
+.maintext{
+  font-size: 45px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.row {
+    height: 100%;
+    }
+
+.leftbox {
+     background-color: #4DC1B8;
+     height: 100%;
+    }
+
+.rightbox {
+     height: 100%;
+    }
+
+.sidetext  {
+  margin-left: 45px;
+  font-size: 20px;
+  color: white;
+}
+
+.rightbox h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 45px;
+}
+
+.rightbox p {
+    margin-left: 45px;
+    max-width: 80%;
+}
+
+
+.leftbox li  {
+  margin-left: 45px;
+  color: white;
+}
+
+.list{
+  background-color: #4C8AC0;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list a {
+  color: white;
+}
+
+
+li {
+  text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .row {
+    height: 50%;
+    }
+
+   .leftbox  {
+        height: 50%;
+    }
+
+    .rightbox  {
+        height: 50%;
+    }
+
+    .maintext{
+    font-size: 35px;
+    }
+
+}
